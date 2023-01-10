@@ -87,9 +87,11 @@ to apply the better and faster **asynchronous** feature of the **powerful** [Asy
 
 1. **ESP32-based boards** using `LwIP` W6100 Ethernet
 
-
+---
 
 #### W6100
+
+`FULL_DUPLEX, 100Mbps`
 
 <p align="center">
     <img src="https://github.com/khoih-prog/AsyncUDP_ESP32_W6100/raw/main/pics/W6100.png">
@@ -102,7 +104,7 @@ to apply the better and faster **asynchronous** feature of the **powerful** [Asy
 
 ## Prerequisites
 
- 1. [`Arduino IDE 1.8.19+` for Arduino](https://www.arduino.cc/en/Main/Software)
+ 1. [`Arduino IDE 1.8.19+` for Arduino](https://github.com/arduino/Arduino/). [![Latest release](https://img.shields.io/github/release/Arduino.svg)](https://github.com/Arduino/releases/latest/)
  2. [`ESP32 Core 2.0.6+`](https://github.com/espressif/arduino-esp32) for ESP32-based boards. [![Latest release](https://img.shields.io/github/release/espressif/arduino-esp32.svg)](https://github.com/espressif/arduino-esp32/releases/latest/)
  
  3. [`WebServer_ESP32_W6100 library 1.5.2+`](https://github.com/khoih-prog/WebServer_ESP32_W6100). To install, check [![arduino-library-badge](https://www.ardu-badge.com/badge/WebServer_ESP32_W6100.svg?)](https://www.ardu-badge.com/WebServer_ESP32_W6100)
@@ -487,6 +489,8 @@ You can change the `INT` pin to another one. Default is `GPIO4`
 ---
 
 #### W6100
+
+`FULL_DUPLEX, 100Mbps`
 
 <p align="center">
     <img src="https://github.com/khoih-prog/AsyncUDP_ESP32_W6100/raw/main/pics/W6100.png">
